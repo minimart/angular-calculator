@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head ng-app="calculatorapp">
+    <meta charset="utf-8">
+    <!--LINKY LINKS  -->
+    <title>Calculate!</title>
+  </head>
+  <body ng-controller="maincontroller">
+    <h1> Calculate This, Please! </h1>
+      <div>
+        <span class="result">{{result}}</span>
+        <button class="number" ng-click="buttonpress">7</button>
+        <button class="number" ng-click="buttonpress">8</button>
+        <button class="number" ng-click="buttonpress">9</button>
+        <button class="operator" ng-click="buttonpress">&divide;</button>
+        <button class="number" ng-click="buttonpress">4</button>
+        <button class="number" ng-click="buttonpress">5</button>
+        <button class="number" ng-click="buttonpress">6</button>
+        <button class="operator" ng-click="buttonpress">x</button>
+        <button class="number" ng-click="buttonpress">1</button>
+        <button class="number" ng-click="buttonpress">2</button>
+        <button class="number" ng-click="buttonpress">3</button>
+        <button class="operator" ng-click="buttonpress">-</button>
+        <button class="number" ng-click="buttonpress">0</button>
+        <button class="number" ng-click="buttonpress">.</button>
+        <button class="operator" ng-click="buttonpress">+</button>
+        <button class="result" ng-click="buttonpress">=</button>
+      </div>
+  </body>
+</html>
